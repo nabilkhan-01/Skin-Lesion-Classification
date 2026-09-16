@@ -1,0 +1,88 @@
+# ============================================================
+# Python
+# ============================================================
+
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# ============================================================
+# Virtual environments
+# ============================================================
+
+.venv/
+.venv-wsl/
+venv/
+env/
+ENV/
+
+# ============================================================
+# IDE / Editor
+# ============================================================
+
+.vscode/
+.idea/
+
+# ============================================================
+# Jupyter
+# ============================================================
+
+.ipynb_checkpoints/
+
+# ============================================================
+# Dataset - DO NOT upload
+# ============================================================
+
+data/HAM10000/images/
+data/HAM10000/metadata.csv
+data/HAM10000/labels.csv
+data/HAM10000/train.csv
+data/HAM10000/validation.csv
+data/HAM10000/test.csv
+
+# Ignore everything generated/downloaded inside HAM10000
+# except the directory itself.
+data/HAM10000/*
+
+# Keep the folder structure visible in Git
+!data/HAM10000/.gitkeep
+
+# ============================================================
+# Results - keep locally, do not upload
+# ============================================================
+
+results/
+
+
+# ============================================================
+# Temporary / log files
+# ============================================================
+
+*.log
+*.tmp
+*.temp
+
+# ============================================================
+# OS files
+# ============================================================
+
+.DS_Store
+Thumbs.db
+
+# ============================================================
+# Models - track only final model, ignore experimental models
+# ============================================================
+
+models/custom_cnn_*.keras
+models/efficientnet_b0_best.keras
+models/efficientnet_b0_final.keras
+models/efficientnet_b0_finetuned_final.keras
+models/*.keras
+!models/efficientnet_b0_finetuned_best.keras
+
+# ============================================================
+# Streamlit
+# ============================================================
+
+.streamlit/config.toml
