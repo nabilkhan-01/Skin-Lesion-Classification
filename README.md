@@ -551,3 +551,12 @@ This project is developed for **research and educational purposes only**.
 The model is designed to classify dermoscopic images into predefined categories based on patterns learned from the training dataset. It has **not been clinically validated** and should not be considered a substitute for professional medical evaluation.
 
 **This system is not a medical diagnostic tool and must not be used for diagnosis, treatment decisions, or clinical decision-making.**
+
+## Project Documents
+
+The academic project documentation is available in the [`docs/`](docs/) directory:
+
+- [Project report](docs/Skin-Lesion-Classification-Project-Report.pdf)
+- [Project presentation](docs/Skin-Lesion-Classification-Presentation.pptx)
+
+These documents describe the dataset, model development process, evaluation results, Grad-CAM analysis, and Streamlit application. They are provided for research and educational reference.
